@@ -14,7 +14,7 @@ public class GuessingGameTests
         // signifying the input failed and output was set to default.
         Assert.IsFalse(
             
-            UserInputNewPlayerName(
+            GGApp.UserInputNewPlayerName(
                 in input,out output));
         
         // test that when the input fails that the output is set

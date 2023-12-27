@@ -1,7 +1,0 @@
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/bin/Debug/net8.0/CoverletSourceRootsMapping_GuessingGameTests
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/obj/Debug/net8.0/GuessingGameTests.csproj.AssemblyReference.cache
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/obj/Debug/net8.0/GuessingGameTests.GeneratedMSBuildEditorConfig.editorconfig
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/obj/Debug/net8.0/GuessingGameTests.AssemblyInfoInputs.cache
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/obj/Debug/net8.0/GuessingGameTests.AssemblyInfo.cs
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/obj/Debug/net8.0/GuessingGameTests.csproj.CoreCompileInputs.cache
-/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/obj/Debug/net8.0/GuessingGameTests.sourcelink.json
