@@ -1,4 +1,4 @@
-using GuessingGame;
+using GuessingGameApp;
 namespace GuessingGameTests;
 
 [TestClass]
@@ -13,7 +13,8 @@ public class GuessingGameTests
         // when the input is null the function should return false
         // signifying the input failed and output was set to default.
         Assert.IsFalse(
-            GuessingGameApp.UserInputNewPlayerName(
+            
+            UserInputNewPlayerName(
                 in input,out output));
         
         // test that when the input fails that the output is set
@@ -33,7 +34,7 @@ public class GuessingGameTests
         /* UserInputNewPlayerName should return false when input is
          empty. */
         Assert.IsFalse(
-            GuessingGameApp.UserInputNewPlayerName(
+            GGApp.UserInputNewPlayerName(
                 in input, out output)    
         );
         // test that when the input fails that the output is set

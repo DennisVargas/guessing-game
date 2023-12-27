@@ -4,14 +4,14 @@
     "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameTests/GuessingGameTests.csproj": {}
   },
   "projects": {
-    "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGame/GuessingGame.csproj": {
+    "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameApp/GuessingGameApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGame/GuessingGame.csproj",
-        "projectName": "GuessingGame",
-        "projectPath": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGame/GuessingGame.csproj",
+        "projectUniqueName": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameApp/GuessingGameApp.csproj",
+        "projectName": "GuessingGameApp",
+        "projectPath": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameApp/GuessingGameApp.csproj",
         "packagesPath": "/home/dvargas/.nuget/packages/",
-        "outputPath": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGame/obj/",
+        "outputPath": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/dvargas/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGame/GuessingGame.csproj": {
-                "projectPath": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGame/GuessingGame.csproj"
+              "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameApp/GuessingGameApp.csproj": {
+                "projectPath": "/home/dvargas/dev/dotnet/GuessingGameProject/GuessingGameApp/GuessingGameApp.csproj"
               }
             }
           }
