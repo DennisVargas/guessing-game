@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameApp", "Guessing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameTests", "GuessingGameTests\GuessingGameTests.csproj", "{1EE4AD95-C299-4657-B0AA-4A23A4919028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameLib", "GuessingGameLib\GuessingGameLib.csproj", "{A36D6736-7A90-4986-A5E8-477173842C89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1EE4AD95-C299-4657-B0AA-4A23A4919028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE4AD95-C299-4657-B0AA-4A23A4919028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE4AD95-C299-4657-B0AA-4A23A4919028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36D6736-7A90-4986-A5E8-477173842C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36D6736-7A90-4986-A5E8-477173842C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36D6736-7A90-4986-A5E8-477173842C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36D6736-7A90-4986-A5E8-477173842C89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
