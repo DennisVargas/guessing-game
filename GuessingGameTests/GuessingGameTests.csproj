@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GuessingGameLib\GuessingGameLib.csproj" />
+    <ProjectReference Include="..\GuessingGameApp\GuessingGameApp.csproj" />
   </ItemGroup>
 
 

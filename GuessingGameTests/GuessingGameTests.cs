@@ -1,4 +1,5 @@
-using static GuessingGameLib.Util;
+using GuessingGameLib;
+using GuessingGameApp;
 
 
 namespace GuessingGameTests;
@@ -17,7 +18,7 @@ public class GuessingGameTests
         // when the input is null the function should return false
         // signifying the input failed and output was set to default.
         Assert.IsFalse(
-            ValidateStringInput(
+            Util.ValidateStringInput(
                 _default, in _input, out string output));
         // the output should be equal to _default and _expected.
         Assert.AreEqual<string>(_expected, output);
@@ -28,7 +29,7 @@ public class GuessingGameTests
     public void TestValidStringInput(
         string _default, string _input, string _expected){
         Assert.IsTrue(
-            GuessingGameLib.Util.ValidateStringInput(
+            Util.ValidateStringInput(
                 _default ,in _input, out string output));
 
         // When the input fails the output should be set to "player".
@@ -42,7 +43,7 @@ public class GuessingGameTests
     public void TestValidMaxGuess(int _default, string input, int expectedOutput){
         // returns true when a string integer is passed into input.
         Assert.IsTrue(
-            ValidateIntInput(_default, in input, out int output));
+            Util.ValidateIntInput(_default, in input, out int output));
         
         // output should be int representation of string.
         Assert.AreEqual<int>(expectedOutput, output);
@@ -57,11 +58,10 @@ public class GuessingGameTests
     public void TestInvalidMaxGuess(int _default, string _input, int _expected){
         // returns true when a string integer is passed into input.
         Assert.IsFalse(
-            ValidateIntInput(_default, in _input, out int output));
+            Util.ValidateIntInput(_default, in _input, out int output));
         // when input is invalid the expected value is the default value.
         _expected = _default;
         // output should be int representation of string.
         Assert.AreEqual<int>(_expected, output);
     }
-    
 }
